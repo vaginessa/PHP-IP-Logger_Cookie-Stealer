@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Error 420: Fuck You | Redirecting to correct page!</title>
+	<link rel="icon" type="images/x-icon" href="../images/favicon.ico">
 </head>
 <body>
 
@@ -55,11 +56,15 @@ logData();
 
 echo "<p style='color:red'>Error 420: Fuck You!</p><br/>";
 
-echo "Redirecting in 5 seconds...";
+echo "Redirecting in 3 seconds...<br/>";
 
-header("Location: https://lab.blackvikingpro.com", 5);
+echo "<a href='https://lab.blackvikingpro.com/'>Redirection not working??!?!";
 
 ?>
+
+<script>
+	setTimeout("location.href = 'https://lab.blackvikingpro.com';",2700);
+</script>
 
 </body>
 </html>
